@@ -1,0 +1,20 @@
+.app-wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 'header header' 'navigation content';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-wrapper__content {
+    grid-area: content;
+    background-color: aliceblue;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}

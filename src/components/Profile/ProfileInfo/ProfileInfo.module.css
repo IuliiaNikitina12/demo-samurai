@@ -1,0 +1,19 @@
+.descriptionBlock {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.descriptionBlock img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.coverImage {
+    width: 100%;
+}
+.coverImage img {
+    width: 100%;
+}
